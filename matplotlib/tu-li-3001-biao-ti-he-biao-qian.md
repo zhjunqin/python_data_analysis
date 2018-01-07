@@ -9,12 +9,12 @@ y = [5,7]
 x2 = [1,2]
 y2 = [3,9]
 
-plt.plot(x, y, label='First Line')
+plt.plot(x, y, label='First Line')    #打标签
 plt.plot(x2, y2, label='Second Line')
 
-plt.xlabel('Plot Number')
-plt.ylabel('Important var')
-plt.title('Interesting Graph\nCheck it out')
+plt.xlabel('Plot Number')        # X轴标签
+plt.ylabel('Important var')      # Y轴标签
+plt.title('Interesting Graph\nCheck it out')  # 图的描述
 plt.legend()
 plt.show()
 ```
