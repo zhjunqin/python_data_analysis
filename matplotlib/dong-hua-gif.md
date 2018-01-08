@@ -32,5 +32,7 @@ anim.save('line.gif', dpi=80, writer='imagemagick')
 plt.show()
 ```
 
+![](/assets/pla_figure_4.gif)
+
 
 
