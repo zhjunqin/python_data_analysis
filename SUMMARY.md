@@ -9,4 +9,5 @@
   * [散点图](matplotlib/san-dian-tu.md)
   * [直线](matplotlib/zhi-xian.md)
   * [动画gif](matplotlib/dong-hua-gif.md)
+  * [Logistic分布](matplotlib/logisticfen-bu.md)
 

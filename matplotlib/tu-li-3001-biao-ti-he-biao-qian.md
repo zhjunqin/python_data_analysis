@@ -21,8 +21,6 @@ plt.show()
 
 ![](/assets/Figure_1.png)
 
-
-
 | 函数名 | 作用 |
 | :--- | :--- |
 | title | 图标的标题 |
