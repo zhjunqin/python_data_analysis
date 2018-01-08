@@ -42,5 +42,9 @@ class matplotlib.animation.FuncAnimation(fig, func, frames=None, init_func=None,
 Makes an animation by repeatedly calling a function func.
 ```
 
+> 参考：
+>
+> http://blog.topspeedsnail.com/archives/7920
+
 
 
