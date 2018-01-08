@@ -20,5 +20,13 @@ plt.legend()
 plt.show()
 ```
 
+![](/assets/pla_figure_3.png)
+
+
+
+API文档：https://matplotlib.org/devdocs/api/\_as\_gen/matplotlib.pyplot.plot.html\#matplotlib.pyplot.plot
+
+
+
 
 
