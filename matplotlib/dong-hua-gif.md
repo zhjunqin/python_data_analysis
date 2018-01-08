@@ -24,7 +24,7 @@ def update(i): # 每次动画调用的函数
     # 更新直线和X轴标签
     line.set_ydata(x - 5 + i)
     ax.set_xlabel(label)
-    return line, ax
+    return line, ax  # 同上，返回可迭代对象
 
 # FuncAnimation每帧都会调用update; 这里是5帧，每帧间隔1s
 anim = FuncAnimation(fig, update, init_func=init, frames=np.arange(0, 5), interval=1000)
