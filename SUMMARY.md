@@ -8,4 +8,5 @@
   * [图例、标题和标签](matplotlib/tu-li-3001-biao-ti-he-biao-qian.md)
   * [散点图](matplotlib/san-dian-tu.md)
   * [直线](matplotlib/zhi-xian.md)
+  * [动画gif](matplotlib/dong-hua-gif.md)
 
