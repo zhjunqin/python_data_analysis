@@ -18,13 +18,11 @@ plt.legend()
 plt.show()
 ```
 
-可以指定颜色，大小和标记符号
-
 
 
 API文档：
 
-https://matplotlib.org/devdocs/api/\_as\_gen/matplotlib.pyplot.scatter.html
+[https://matplotlib.org/devdocs/api/\_as\_gen/matplotlib.pyplot.scatter.html](https://matplotlib.org/devdocs/api/_as_gen/matplotlib.pyplot.scatter.html)
 
 ```
 matplotlib.pyplot.scatter(x, y, s=None, c=None, marker=None, cmap=None, norm=None, vmin=None, vmax=None, 
@@ -33,8 +31,6 @@ Make a scatter plot of x vs y.
 
 Marker size is scaled by s and marker color is mapped to c.
 ```
-
-
 
 
 

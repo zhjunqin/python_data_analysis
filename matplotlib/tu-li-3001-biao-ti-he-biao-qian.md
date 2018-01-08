@@ -21,6 +21,17 @@ plt.show()
 
 ![](/assets/Figure_1.png)
 
+
+
+| 函数名 | 作用 |
+| :--- | :--- |
+| title | 图标的标题 |
+| xlabel | x轴的名称 |
+| ylabel | y轴的名称 |
+| legend | 显示右上角的图例 |
+| grid | 显示网格 |
+| show | 显示图像 |
+
 > Source: [http://blog.csdn.net/wizardforcel/article/details/54407212](http://blog.csdn.net/wizardforcel/article/details/54407212)
 
 
