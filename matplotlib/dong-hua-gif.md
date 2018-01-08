@@ -22,7 +22,7 @@ def init():  #初始化函数，可以在这里画一些初始化的数据
 def update(i): # 每次动画调用的函数
     label = 'timestep {0}'.format(i)
     # 更新直线和X轴标签
-    line.set_ydata(x - 5 + i)
+    line.set_ydata(x - 5 + i) #每次调整直线
     ax.set_xlabel(label)
     return line, ax  # 同上，返回可迭代对象
 
@@ -34,7 +34,7 @@ plt.show()
 
 ![](/assets/pla_figure_4.gif)
 
-API：https://matplotlib.org/devdocs/api/\_as\_gen/matplotlib.animation.FuncAnimation.html\#matplotlib.animation.FuncAnimation
+API：[https://matplotlib.org/devdocs/api/\_as\_gen/matplotlib.animation.FuncAnimation.html\#matplotlib.animation.FuncAnimation](https://matplotlib.org/devdocs/api/_as_gen/matplotlib.animation.FuncAnimation.html#matplotlib.animation.FuncAnimation)
 
 ```
 class matplotlib.animation.FuncAnimation(fig, func, frames=None, init_func=None, fargs=None, save_count=None, **kwargs)
