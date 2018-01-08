@@ -8,8 +8,8 @@ y1 = [3,4,1,2]
 x2 = [2,4,6,3]
 y2 = [2,1,4,2]
 
-plt.scatter(x1,y1, label='positive', color='g', s=25, marker="o")
-plt.scatter(x2,y2, label='negative', color='r', s=25, marker="x")
+plt.scatter(x1,y1, label='positive', color='g', s=50, marker="o")
+plt.scatter(x2,y2, label='negative', color='r', s=50, marker="x")
 
 plt.xlabel('x')
 plt.ylabel('y')
