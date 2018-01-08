@@ -19,7 +19,7 @@ line, = ax.plot(x, x - 5, 'r-', linewidth=2)
 def init():  #初始化函数，可以在这里画一些初始化的数据
     return line, ax
 
-def update(i):
+def update(i): # 每次动画调用的函数
     label = 'timestep {0}'.format(i)
     # 更新直线和X轴标签
     line.set_ydata(x - 5 + i)
