@@ -1,3 +1,7 @@
+
+
+### Logistic概率分布函数和密度函数
+
 ```
 import matplotlib.pyplot as plt
 import numpy as np
@@ -28,5 +32,11 @@ plt.legend()
 plt.show()
 ```
 
+
+
 ![](/assets/logistic_1.png)
+
+
+
+
 
