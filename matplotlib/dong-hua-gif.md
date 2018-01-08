@@ -17,14 +17,14 @@ ax.scatter(x, x + np.random.normal(0, 3.0, len(x)))
 line, = ax.plot(x, x - 5, 'r-', linewidth=2)
 
 def init():  #初始化函数，可以在这里画一些初始化的数据
-    return line, ax # 必须返回一个可以迭代的对象，如果只返回一个也就是 return line,
+    return line, ax 
 
 def update(i): # 每次动画调用的函数
     label = 'timestep {0}'.format(i)
     # 更新直线和X轴标签
     line.set_ydata(x - 5 + i) #每次调整直线
     ax.set_xlabel(label)
-    return line, ax  # 同上，返回可迭代对象
+    return line, ax  
 
 # FuncAnimation每帧都会调用update; 这里是5帧，每帧间隔1s
 anim = FuncAnimation(fig, update, init_func=init, frames=np.arange(0, 5), interval=1000)
