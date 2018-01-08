@@ -9,7 +9,7 @@ y = [5,7]
 x2 = [1,2]
 y2 = [3,9]
 
-plt.plot(x, y, label='First Line')    #打标签
+plt.plot(x, y, label='First Line')    # 画直线，打标签
 plt.plot(x2, y2, label='Second Line')
 
 plt.xlabel('Plot Number')        # X轴标签
