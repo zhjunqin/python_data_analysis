@@ -18,6 +18,8 @@ plt.legend()
 plt.show()
 ```
 
+
+
 ![](/assets/plt_figure_2.png)
 
 API文档：
@@ -31,6 +33,12 @@ Make a scatter plot of x vs y.
 
 Marker size is scaled by s and marker color is mapped to c.
 ```
+
+| x, y | array\_like, shape \(n, \) |
+| :--- | :--- |
+| s : | scalar or array\_like, shape \(n, \), optional |
+| c : | color, sequence, or sequence of color, optional, default: ‘b’ |
+| marker : | MarkerStyle, optional, default: ‘o’ |
 
 
 
