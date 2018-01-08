@@ -18,7 +18,7 @@ plt.legend()
 plt.show()
 ```
 
-
+![](/assets/plt_figure_2.png)
 
 API文档：
 
