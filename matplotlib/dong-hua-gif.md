@@ -34,5 +34,13 @@ plt.show()
 
 ![](/assets/pla_figure_4.gif)
 
+API：https://matplotlib.org/devdocs/api/\_as\_gen/matplotlib.animation.FuncAnimation.html\#matplotlib.animation.FuncAnimation
+
+```
+class matplotlib.animation.FuncAnimation(fig, func, frames=None, init_func=None, fargs=None, save_count=None, **kwargs)
+
+Makes an animation by repeatedly calling a function func.
+```
+
 
 
