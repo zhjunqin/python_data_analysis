@@ -17,7 +17,7 @@ ax.scatter(x, x + np.random.normal(0, 3.0, len(x)))
 line, = ax.plot(x, x - 5, 'r-', linewidth=2)
 
 def init():  #初始化函数，可以在这里画一些初始化的数据
-    return line, ax # 必须返回一个可以迭代的对象，如果只返回一个也就是 line,
+    return line, ax # 必须返回一个可以迭代的对象，如果只返回一个也就是 return line,
 
 def update(i): # 每次动画调用的函数
     label = 'timestep {0}'.format(i)
