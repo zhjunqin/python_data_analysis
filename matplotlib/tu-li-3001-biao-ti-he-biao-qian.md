@@ -15,15 +15,13 @@ plt.plot(x2, y2, label='Second Line')
 plt.xlabel('Plot Number')        # X轴标签
 plt.ylabel('Important var')      # Y轴标签
 plt.title('Interesting Graph\nCheck it out')  # 图的描述
-plt.legend()                 # 画出带"label"的
+plt.legend()                 # 画出带"label"的图例
 plt.show()
 ```
 
 ![](/assets/Figure_1.png)
 
-
-
-> Source: http://blog.csdn.net/wizardforcel/article/details/54407212
+> Source: [http://blog.csdn.net/wizardforcel/article/details/54407212](http://blog.csdn.net/wizardforcel/article/details/54407212)
 
 
 
