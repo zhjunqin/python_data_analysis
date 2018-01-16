@@ -1,14 +1,14 @@
 ### Numpy中的矩阵相乘
 
-> Source:
+> 参考:
 >
-> http://blog.csdn.net/cqk0100/article/details/76221749
+> [http://blog.csdn.net/cqk0100/article/details/76221749](http://blog.csdn.net/cqk0100/article/details/76221749)
 
 Numpy中的矩阵乘法分为两大情况，使用`numpy.array`和使用`numpy.matrix`. Numpy确实重载了`*`操作符，可以直接对array或者matrix对象进行乘法运算，但是在不同对象上，其意义是有区别的。
 
 ### numpy.array {#对于array对象}
 
-**`*或np.multiply `**https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html
+`*或np.multiply`[https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html)
 
 代表的是矩阵或向量每个元素相乘。
 
@@ -23,14 +23,14 @@ array([[4, 6],
 >>> np.multiply(a,b)
 array([[4, 6],
        [6, 4]])
-       
+
 a=np.array([1,2,3,4])
 b=np.array([2,0,1,2])
 >>> a*b
 array([2, 0, 3, 8])
 ```
 
-**`np.dot`**https://docs.scipy.org/doc/numpy/reference/generated/numpy.dot.html
+`np.dot`[https://docs.scipy.org/doc/numpy/reference/generated/numpy.dot.html](https://docs.scipy.org/doc/numpy/reference/generated/numpy.dot.html)
 
 当两个变量都是矩阵时，表示的是矩阵相乘，
 
@@ -56,7 +56,7 @@ b=np.array([3, 0]).T
 array([3, 9])
 ```
 
-**`np.inner `**https://docs.scipy.org/doc/numpy/reference/generated/numpy.inner.html
+`np.inner`[https://docs.scipy.org/doc/numpy/reference/generated/numpy.inner.html](https://docs.scipy.org/doc/numpy/reference/generated/numpy.inner.html)
 
 两个向量的内积
 
@@ -81,8 +81,6 @@ array([2, 6])
 >>> np.inner(b,a.T)
 array([2, 4])
 ```
-
-
 
 
 
