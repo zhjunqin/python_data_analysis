@@ -104,12 +104,11 @@ ValueError: operands could not be broadcast together with shapes (2,2) (2,3)
 >>> np.multiply(a,b)
 matrix([[4, 6],
         [6, 4]])
-        
+
 >>> b=np.mat([[4,3],[2,1]])
 >>> np.multiply(a,b)
 matrix([[4, 6],
         [6, 4]])
-
 ```
 
 
