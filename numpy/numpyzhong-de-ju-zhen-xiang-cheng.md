@@ -6,7 +6,7 @@
 
 Numpy中的矩阵乘法分为两大情况，使用`numpy.array`和使用`numpy.matrix`. Numpy确实重载了`*`操作符，可以直接对array或者matrix对象进行乘法运算，但是在不同对象上，其意义是有区别的。
 
-### numpy.array {#对于array对象}
+### numpy array {#对于array对象}
 
 `*或np.multiply`[https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html)
 
@@ -80,6 +80,31 @@ array([2, 6])
 array([2, 6])
 >>> np.inner(b,a.T)
 array([2, 4])
+```
+
+### numpy matrix {#对于array对象}
+
+矩阵相乘是用`*`，矩阵每个元素相乘用`mutiply`
+
+```
+>>> a=np.mat([[1,2],[3,4]])
+>>> type(a)
+<class 'numpy.matrixlib.defmatrix.matrix'>
+>>> b=np.mat([[4,3,1],[2,1,0]])
+>>> a*b
+matrix([[ 8,  5,  1],
+        [20, 13,  3]])
+
+>>> np.multiply(a,b)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: operands could not be broadcast together with shapes (2,2) (2,3) 
+
+>>> b=np.array([[4,3],[2,1]])
+>>> np.multiply(a,b)
+matrix([[4, 6],
+        [6, 4]])
+
 ```
 
 
