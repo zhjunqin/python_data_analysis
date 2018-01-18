@@ -12,4 +12,5 @@
   * [直线](matplotlib/zhi-xian.md)
   * [动画gif](matplotlib/dong-hua-gif.md)
   * [Logistic分布](matplotlib/logisticfen-bu.md)
+  * [画圆和矩形](matplotlib/hua-yuan-he-ju-xing.md)
 
