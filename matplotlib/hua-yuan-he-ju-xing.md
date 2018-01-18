@@ -56,5 +56,5 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc=1, borderaxespad=0.)
 plt.show()
 ```
 
-
+![](/assets/lp_distance_1.png)
 
