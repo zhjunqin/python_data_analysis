@@ -39,6 +39,7 @@ axes.add_patch(
 
 axes.axis('equal')
 
+# 调整轴变成交叉位置
 axes.spines['left'].set_position('center')
 axes.spines['right'].set_color('none')
 axes.spines['bottom'].set_position('center')
