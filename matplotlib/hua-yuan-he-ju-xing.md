@@ -9,10 +9,8 @@ fig = plt.figure()
 axes = fig.add_subplot(111) 
 
 # 菱形
-axes.plot([-1, 0], [0, 1], color='r', label='p=1', linewidth=1)
-axes.plot([-1, 0], [0, -1], color='r', linewidth=1)
-axes.plot([0, 1], [1, 0], color='r',  linewidth=1)
-axes.plot([0, 1], [-1, 0], color='r',  linewidth=1)
+axes.plot([-1, 0, 1], [0, 1, 0], color='r', label='p=1', linewidth=1)
+axes.plot([-1, 0 ,1], [0, -1, 0], color='r',  linewidth=1)
 
 # 圆的基本信息
 # 1.圆半径
