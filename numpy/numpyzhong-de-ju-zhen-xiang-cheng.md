@@ -10,7 +10,7 @@ Numpy中的矩阵乘法分为两大情况，使用`numpy.array`和使用`numpy.m
 
 `*或np.multiply`[https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html)
 
-代表的是矩阵或向量每个元素相乘。
+代表的是矩阵或向量中相同的位置每个元素相乘。
 
 ```
 import numpy as np
