@@ -2,7 +2,7 @@ Numpy中的axis概念
 
 > Source:
 >
-> http://changtw-blog.logdown.com/posts/895468-python-numpy-axis-concept-organize-notes
+> [http://changtw-blog.logdown.com/posts/895468-python-numpy-axis-concept-organize-notes](http://changtw-blog.logdown.com/posts/895468-python-numpy-axis-concept-organize-notes)
 
 以一個3x3 numpy array为例
 
@@ -40,9 +40,9 @@ ndarray.sum(axis = 1) -> array([ 6, 15, 24])
 
 > Source:
 >
-> http://blog.csdn.net/fangjian1204/article/details/53055219
+> [http://blog.csdn.net/fangjian1204/article/details/53055219](http://blog.csdn.net/fangjian1204/article/details/53055219)
 
 通过不同的axis，numpy会沿着不同的方向进行操作：
 
-如果不设置，那么对所有的元素操作；如果axis=0，则沿着纵轴进行操作；axis=1，则沿着横轴进行操作。但这只是简单的二位数组，如果是多维的呢？可以总结为一句话：设axis=i，则numpy沿着第i个下标变化的放下进行操作。
+如果不设置，那么对所有的元素操作；如果axis=0，则沿着纵轴进行操作；axis=1，则沿着横轴进行操作。但这只是简单的二位数组，如果是多维的呢？可以总结为一句话：设axis=i，则numpy沿着第i个下标变化的方向进行操作。
 
