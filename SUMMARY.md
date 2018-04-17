@@ -8,6 +8,7 @@
   * [numpy中的矩阵相乘](numpy/numpyzhong-de-ju-zhen-xiang-cheng.md)
   * [numpy.tile](numpy/numpytile.md)
   * sort和argsort
+  * test
 * [Matplotlib](matplotlib.md)
   * [图例、标题和标签](matplotlib/tu-li-3001-biao-ti-he-biao-qian.md)
   * [散点图](matplotlib/san-dian-tu.md)
